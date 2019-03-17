@@ -1,0 +1,27 @@
+.button{
+	-fx-background-color: white;
+	-fx-font-size: 20;
+}
+
+.button:hover{
+	-fx-font-size: 21;
+}
+
+#bt_back,#bt_accept,#bt_notAccept{
+	-fx-background-color: #0066cc;
+	-fx-font-size: 20;
+	-fx-font-weight: bold;
+}
+
+#bt_back,#bt_accept,#bt_notAccept:hover{
+	-fx-font-weight: bold;
+	-fx-font-size: 21;
+}
+
+.column-header{
+    -fx-pref-height: 8ex;
+    -fx-font-size: 16;
+    -fx-text-alignment: center;
+    -fx-background-color: #C9C9C9;
+    -fx-border-color: black;
+}
